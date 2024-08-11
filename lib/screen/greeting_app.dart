@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class FirstScreen extends StatelessWidget {
-  const FirstScreen({super.key});
+class GreetingApp extends StatelessWidget {
+  const GreetingApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,6 @@ class FirstScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
             const Text(
               'Hello, World!',
               style: TextStyle(
@@ -23,7 +22,6 @@ class FirstScreen extends StatelessWidget {
                 fontSize: 24,
               ),
             ),
-
             const SizedBox(height: 16),
 
             const Text(
