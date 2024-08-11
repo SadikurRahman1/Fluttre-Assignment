@@ -7,7 +7,7 @@ class FirstScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Greeting App'),
+        title: const Text('Greeting App'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
